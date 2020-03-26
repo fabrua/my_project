@@ -1,0 +1,56 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../Fotos/42576.jpg);
+    background-size: cover;
+
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    margin: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+    100% {background-color: red;}
+  }
+nav{
+    text-decoration: darkorange;
+    text-align: center;
+    transition: width 2s, height 4s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav :hover{
+    color: rgb(255, 140, 0);
+    font-size: 50px;
+}
+ol{
+    text-align: center;
+    font-size: 45px;
+    padding-left: 40px;
+}
+ul{
+    font-size: 45px;
+    
+}
+li{
+    display: inline;
+    text-align: left;
+    padding: 40px;
+}
+img{
+    padding-left: 100px;
+}
+ul :hover{
+    color: yellow;
+}
+ol :hover{
+    color: blue;
+}
